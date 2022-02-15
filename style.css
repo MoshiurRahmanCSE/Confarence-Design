@@ -180,6 +180,10 @@
     text-decoration: none;
     font-size: 18px;
 }
+.detail a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
 .detail .fa-arrow-right-long {
     margin-left: 5px;
 }
@@ -303,6 +307,7 @@
 .photoA, .photoB, .photoC, .photoD {
     height: 225px;
     width: 300px;
+    margin-left: 80px;
 }
 .photoA img, .photoB img, .photoC img, .photoD img {
     width: 100%;
