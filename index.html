@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confarence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="header sticky-top">
+            <div class="container-fluid">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="logo" href="#">
+                            <img src="photos/logo.svg" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Speakers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Schedule</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tickets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Venue</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sponsors</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-grid gap-2 d-flex justify-content-end">
+                            <button class="btn btn-primary" type="button">Tickets</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <!-- <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div> -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="photos/banner-1.jpg" class="d-block w-100" alt="-">
+                        <div class="carousel-caption d-flex justify-content-start">
+                            <div class="carousel-text">
+                                <div class="details">
+                                    <h1>DevConf 2024</h1>
+                                    <h3><i class="fas fa-calendar-alt"></i> 12-15 Oct  <i class="fas fa-map-marker-alt"></i> New York, USA</h3>
+                                    <p> The #1 Bootstrap 4 Template for<br> 
+                                        Tech Conferences and Events.
+                                    </p>
+                                    <button type="button" class="btn btn-primary btn-lg">Get Tickets</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/banner-2.jpg" class="d-block w-100" alt="-">
+                        <div class="carousel-caption d-flex justify-content-start">
+                            <div class="carousel-text">
+                                <div class="details">
+                                    <h1>DevConf 2024</h1>
+                                    <h3><i class="fas fa-calendar-alt"></i> 12-15 Oct  <i class="fas fa-map-marker-alt"></i> New York, USA</h3>
+                                    <p>The #1 Bootstrap 4 Template for 
+                                        <br>
+                                        Tech Conferences and Events.
+                                    </p>
+                                    <button type="button" class="btn btn-primary btn-lg">Get Tickets</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photos/banner-3.jpg" class="d-block w-100" alt="-">
+                        <div class="carousel-caption d-flex justify-content-start">
+                            <div class="carousel-text">
+                                <div class="details">
+                                    <h1>DevConf 2024</h1>
+                                    <h3><i class="fas fa-calendar-alt"></i> 12-15 Oct  <i class="fas fa-map-marker-alt"></i> New York, USA</h3>
+                                    <p>The #1 Bootstrap 4 Template for 
+                                        <br>
+                                        Tech Conferences and Events.
+                                    </p>
+                                    <button type="button" class="btn btn-primary btn-lg">Get Tickets</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attantendi">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="items">
+                                    <div class="counter">2000+</div>
+                                    <div class="units">Attendees</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="items">
+                                    <div class="counter">3</div>
+                                    <div class="units">Days</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="items">
+                                    <div class="counter">60+</div>
+                                    <div class="units">Talks</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="items">
+                                    <div class="counter">10+</div>
+                                    <div class="units">Workshops</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="aboutus">
+                            <div class="title d-flex justify-content-center">
+                                <h2>About DevConf</h2>
+                            </div>
+                            <div class="brief d-flex justify-content-center">
+                                <p>Briefly introduce your conference or event here. You should convince people why they should attend<br> 
+                                    with a list of benefits. <b>Are you a conference organizer? Want to source developer t-shirts as part of<br>
+                                    your conference package?</b>Check out our programming tees at <a href="made4dev.com">made4dev.com </a>- developers love<br>
+                                    them! Want to get a bulk discount or just want to use one of the t-shirt designs? Please email<br>
+                                    <a href="hello@made4dev.com">hello@made4dev.com</a> and we can discuss.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="joinus">
+                            <div class="title d-flex justify-content-center">
+                                <h3>Why Join Us</h3>
+                            </div>
+                            <div class="brief d-flex justify-content-center">
+                                <div class="detail">
+                                    <ul>
+                                        <li><i class="fa-solid fa-circle-check"></i>Unique chance to lorem ipsum dolor</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>Learn from the best in the industry</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>Discover the best tools and practices</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>Meet developers from all over the world</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>Grow your network</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>Practical workshops to lorem ipsum dolor</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>After-party lorem ipsum dolor</li>
+                                        <li><i class="fa-solid fa-circle-check"></i>Free <a href="#">developer t-shirts</a> and swag</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counter">
+                            <div class="title d-flex justify-content-center">
+                                <h3>Event Starts In:</h3>
+                            </div>
+                            <div class="countdown d-flex justify-content-center">
+                                <div id="clockdiv">
+                                    <div>
+                                      <span class="days" id="day"></span>
+                                      <div class="smalltext">Days</div>
+                                    </div>
+                                    <div>
+                                      <span class="hours" id="hour"></span>
+                                      <div class="smalltext">Hrs</div>
+                                    </div>
+                                    <div>
+                                      <span class="minutes" id="minute"></span>
+                                      <div class="smalltext">Mins</div>
+                                    </div>
+                                    <div>
+                                      <span class="seconds" id="second"></span>
+                                      <div class="smalltext">Secs</div>
+                                    </div>
+                                </div>         
+                                <p id="count"></p>
+                            </div>
+                            <div class="d-grid gap-2 d-flex justify-content-center">
+                                <button class="btn btn-primary" type="button">Get Your Tickets Today</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recent">
+            <div class="conatiner">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title d-flex justify-content-center">
+                            <h3>Previously</h3>
+                        </div>
+                        <div class="brief d-flex justify-content-center">
+                            <p>
+                                Conference videos and images from previous years is a great way to show people what to expect at <br>
+                                the conference and entice them to join. You can host more media content on YouTube, Flickr or <br>
+                                Instagram and link out to them in this section.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="video d-flex justify-content-center">
+                                    <iframe width="535" height="300" src="https://www.youtube.com/embed/kiQ0tHV6mco"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="video">
+                                    <iframe width="535" height="300" src="https://www.youtube.com/embed/ah0eLJBohYE"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="speaker">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title d-flex justify-content-center">
+                            <h2>Speakers</h2>
+                        </div>
+                        <div class="brief d-flex justify-content-center">
+                            <p>
+                                List your featured speakers here. You can provide more info about each speaker in the relevant <br>
+                                modal windows. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-1.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>James Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-2.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Sarah Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-3.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Tim Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-4.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Josh Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-5.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Ling Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-6.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Andy Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-7.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Alice Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="information">
+                                    <img src="photos/speaker-8.jpg" alt="">
+                                    <div class="detail">
+                                        <h4>Thomas Doe</h4>
+                                        <p>
+                                            Senior Software developer <br>
+                                            Angular Core Team
+                                        </p>
+                                        <a href="#">Read More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2 d-flex justify-content-center">
+                            <button type="button" class="btn btn-primary btn-lg">Get Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tickets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title d-flex justify-content-center">
+                            <h2>Tickets</h2>
+                        </div>
+                        <div class="brief d-flex justify-content-center">
+                            <p>
+                                You can use 3rd party platforms such as <a href="#">eventbrite</a> and <a href="#">tickettailor</a> to sell your tickets.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="title d-flex justify-content-center">
+                                        <h3>Super Early Bird</h3>
+                                    </div>
+                                    <div class="info">
+                                        <div class="curency d-flex justify-content-center">
+                                            <span>$250</span>
+                                        </div>
+                                        <div class="detail">
+                                            <p>Purchase before 1st Oct 2019. Only 50 tickets available. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                        <div class="d-grid gap-2 d-flex justify-content-center">
+                                            <button type="button" class="btn btn-primary disabled">SOLD OUT</button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="title d-flex justify-content-center">
+                                        <h3>Early Bird</h3>
+                                    </div>
+                                    <div class="info">
+                                        <div class="curency d-flex justify-content-center">
+                                            <span>$350</span>
+                                        </div>
+                                        <div class="detail">
+                                            <p>Purchase before 1st June 2022. Only 100 tickets available. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2 d-flex justify-content-center">
+                                        <button type="button" class="btn btn-primary btn-lg">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="title d-flex justify-content-center">
+                                        <h3>Regular</h3>
+                                    </div>
+                                    <div class="info">
+                                        <div class="curency d-flex justify-content-center">
+                                            <span>$500</span>
+                                        </div>
+                                        <div class="detail">
+                                            <p>Additional freebies and benefits included. Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing.</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2 d-flex justify-content-center">
+                                        <button type="button" class="btn btn-primary btn-lg">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="includes">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="title d-flex justify-content-center">
+                                            <h3>What's included?</h3>
+                                        </div>
+                                        <div class="briefs">
+                                            <ul>
+                                                <li><i class="fa-solid fa-user-tie"></i>60+ talks from industry-leading speakers</li>
+                                                <li><i class="fa-solid fa-people-carry-box"></i>Access to 40+ workshop</li>
+                                                <li><i class="fa-solid fa-champagne-glasses"></i>Amazing after-parties</li>
+                                                <li><i class="fa-solid fa-utensils"></i>FREE drinks, refreshments, lunch and dinner</li>
+                                                <li><i class="fa-solid fa-shirt"></i>FREE <a href="#">premium developer tees from made4dev</a></li>
+                                                <li><i class="fa-solid fa-book"></i>FREE Udemy courses</li>
+                                                <li><i class="fa-solid fa-gift"></i>FREE <a href="#">Bootstrap templates and digital resources</a> for developers worth over $100</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="venue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title d-flex justify-content-center">
+                            <h2>Venue</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="info">
+                                    <div class="title">
+                                        <h4>How To Get Here</h4>
+                                    </div>
+                                    <div class="more">
+                                        <p>
+                                            Your venue info goes here. Sed feugiat nibh lorem, a laoreet sem aliquet ut. Praesent tincidunt efficitur nisi, ut eleifend diam tempor sit amet. Aliquam volutpat ex feugiat, semper urna a, pharetra lacus. Sed eget eros cursus, consequat lectus ultricies, efficitur metus. Sed sit amet mauris faucibus magna finibus convallis vel quis justo. Curabitur ultricies sagittis erat, quis faucibus lectus tempor vitae. Proin sodales, elit vitae accumsan efficitur, orci quam molestie orci, accumsan tincidunt dui turpis sed libero. Duis id vehicula ex. In quis pellentesque lorem, ut sollicitudin mauris.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="travel">
+                                            <div class="plane">
+                                                <div class="title">
+                                                    <h5><i class="fa-solid fa-plane-departure"></i>By Plane</h5>
+                                                </div>
+                                                <div class="more">
+                                                    <p>
+                                                        Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.
+                                                    </p>
+                                                </div>
+                                                <div class="ticket">
+                                                    <a href="#">Search Tickets<i class="fa-solid fa-arrow-right-long"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="travel">
+                                            <div class="car">
+                                                <div class="title">
+                                                    <h5><i class="fa-solid fa-car"></i>By Car</h5>
+                                                </div>
+                                                <div class="more">
+                                                    <p>
+                                                        Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.
+                                                    </p>
+                                                </div>
+                                                <div class="ticket">
+                                                    <a href="#">Search Route<i class="fa-solid fa-arrow-right-long"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="travel">
+                                            <div class="car">
+                                                <div class="title">
+                                                    <h5><i class="fa-solid fa-bus"></i>By Bus</h5>
+                                                </div>
+                                                <div class="more">
+                                                    <p>
+                                                        Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.
+                                                    </p>
+                                                </div>
+                                                <div class="ticket">
+                                                    <a href="#">Book Tickets<i class="fa-solid fa-arrow-right-long"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="travel">
+                                            <div class="car">
+                                                <div class="title">
+                                                    <h5><i class="fa-solid fa-train-subway"></i>By Train</h5>
+                                                </div>
+                                                <div class="more">
+                                                    <p>
+                                                        Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.
+                                                    </p>
+                                                </div>
+                                                <div class="ticket">
+                                                    <a href="#">Book Tickets<i class="fa-solid fa-arrow-right-long"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="faclity">
+                                            <div class="car">
+                                                <div class="title">
+                                                    <h3>Facilities & Accommodations</h3>
+                                                </div>
+                                                <div class="more">
+                                                    <p>
+                                                        Your venue info goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat magna eu accumsan mattis. Duis non augue porttitor, fringilla velit vitae, ultricies eros. Sed libero eros, tristique ac orci nec, hendrerit dictum lacus. Aenean iaculis massa felis, eget venenatis turpis lacinia sit amet.
+                                                    </p>
+                                                </div>
+                                                <div class="button">
+                                                    <button type="button" class="btn btn-primary btn-lg">Search Hotels</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="gallary">
+                                    <div class="photoA">
+                                        <img src="photos/venue-1.jpg" alt="">
+                                    </div>
+                                    <div class="photoB">
+                                        <img src="photos/venue-2.jpg" alt="">
+                                    </div>
+                                    <div class="photoC">
+                                        <img src="photos/venue-3.jpg" alt="">
+                                    </div>
+                                    <div class="photoD">
+                                        <img src="photos/venue-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title d-flex justify-content-center">
+                            <h2>Sponsors & Partners</h2>
+                        </div>
+                        <div class="brief">
+                            <p>
+                                Want to become a sponsor? Get in touch lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                                Proin consequat magna eu accumsan mattis.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-1.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-4.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-5.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-6.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-7.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-8.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-9.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-10.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-11.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="sponsor">
+                                    <img src="photos/logo-12.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Add d-flex justify-content-center">
+                            <button type="button" class="btn btn-primary">Become A Sponsor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="SocialLink d-flex justify-content-center">
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="contact d-flex justify-content-center">
+                            <a href="#">Code of Conduct</a>  | <a href="#">Terms</a> | <a href="#">Privacy</a>
+                        </div>
+                        <div class="text-center py-2">
+                            <p>© 2022 - All right ® by || Developed By eMythMakers.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>  
+        var deadline = new Date("dec 31, 2022 15:37:25").getTime();
+          
+        var x = setInterval(function() {
+          
+            var now = new Date().getTime();
+            var t = deadline - now;
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+            var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((t % (1000 * 60)) / 1000);
+            document.getElementById("day").innerHTML =days ;
+            document.getElementById("hour").innerHTML =hours;
+            document.getElementById("minute").innerHTML = minutes; 
+            document.getElementById("second").innerHTML =seconds; 
+            if (t < 0) {
+                clearInterval(x);
+                document.getElementById("count").innerHTML = "TIME UP";
+                document.getElementById("day").innerHTML ='0';
+                document.getElementById("hour").innerHTML ='0';
+                document.getElementById("minute").innerHTML ='0' ; 
+                document.getElementById("second").innerHTML = '0'; 
+            }
+        }, 1000);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

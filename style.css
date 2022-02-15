@@ -1,0 +1,437 @@
+/* Navbar Start */
+#navbarNav ul li a {
+    color: #fff;
+    font-weight: 600;
+    padding: 0 20px;
+}
+.sticky-top {
+    background: #141C25;
+}
+/* Navbar Button Start */
+.btn-primary {
+    background: #E73830;
+    padding: 8px 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: #E73830;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #E73830;
+    border-color: #E73830;
+}
+/* Navbar Button End */
+/* Navbar End */
+
+
+/* Banner Section Start */
+.carousel-item img {
+    height: 600px;
+}
+.carousel-text .details {
+    margin-bottom: 160px;
+    margin-left: -95px;
+}
+.details h1 {
+    font-size: 70px;
+}
+.details h3 {
+    margin-left: -55px;
+}
+.details p {
+    margin-left: -80px;
+    font-size: 25px;
+}
+.details .btn-primary {
+    margin-left: -265px;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #098dcf;
+    border-color: #098dcf;
+}
+.details .btn-primary:hover {
+    color: #fff;
+    background-color: #076C9E;
+    border-color: #076C9E;
+}
+/* Banner Section End */
+/* Attandee Section Start */
+.attantendi {
+    background: #098DCF;
+    padding: 25px;
+    position: relative;
+    bottom: 45px;
+}
+.attantendi .items {
+    text-align: center;
+    /* font-size: 24px; */
+}
+.attantendi .counter {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.attantendi .units {
+    font-size: 22px;
+    color: #383838;
+    font-weight: 600;
+}
+/* Attandee Section End */
+
+/* About  Part Start */
+.about {
+    padding-bottom: 75px;
+}
+.brief {
+    font-size: 18px;
+    padding: 10px;
+}
+.brief p a {
+    text-decoration: none;
+}
+
+/* Join Us Part Start */
+.detail li {
+    font-size: 19px;
+    list-style-type: none;
+}
+.detail li a {
+    text-decoration: none;
+}
+.fa-circle-check {
+    color: #5ab66e;
+    margin-right: 10px;
+}
+/* Join Us Part End */
+
+/* Counter Part Start */
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #636e6c;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #313232;
+    display: inline-block;
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+.countdown {
+    padding: 24px 0;
+}
+.counter .btn-primary {
+    font-size: 20px;
+}
+/* Counter Part End*/
+/* About  Part End */
+
+/* Recent Part Start */
+.recent {
+    background: #098dcf;
+    padding: 55px 0;
+    color: #fff;
+}
+.recent .brief {
+    padding-bottom: 25px;
+    text-align: center;
+}
+/* Recent Part End */
+
+/* Speaker Part Start */
+.speaker {
+    padding: 60px 0;
+}
+.speaker .title h2 {
+    font-weight: 800;
+}
+.speaker .brief {
+    color: #415B78;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+.information {
+    background: #f0f6fa;
+    margin-bottom: 25px;
+    border: 1px solid #ddd8d8;
+}
+.information img {
+    width: 100%;
+}
+.information .detail {
+    padding: 5px 0 0 10px;
+}
+.detail a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.detail .fa-arrow-right-long {
+    margin-left: 5px;
+}
+.information .contact {
+	background: #e8f1f7;
+	margin-top: 60px;
+	padding: 7px;
+	color: #098dcf;
+	border: 1px solid #ddd8d8;
+}
+.information .contact .fa-twitter, .information .contact .fa-github {
+    padding: 0 8px;
+}
+.speaker .btn-primary {
+    margin: 20px;
+    font-size: 22px;
+    background: #098dcf;
+    border-color: #098dcf;
+    padding: 8px 25px;
+}
+/* Speaker Part End */
+
+/* Tickets Part Start */
+.tickets {
+    background: #f0f6fa;
+    padding: 55px 0;
+}
+.tickets .title h2 {
+    font-weight: 800;
+}
+.tickets .brief p {
+    color: #415b78;
+    font-weight: 500;
+}
+.tickets .brief p a {
+    color: #3a3a3a;
+    text-decoration: underline;
+}
+.tickets .brief p a:hover {
+    color: #098dcf;
+}
+.card {
+    padding-bottom: 25px;
+    margin: 15px;
+}
+.card .title {
+    background: #098dcf;
+    color: #fff;
+    padding: 10px;
+}
+.card .curency {
+    font-size: 30px;
+    font-weight: bold;
+    color: #415b78;
+    padding: 16px;
+}
+.card .detail p {
+    font-size: 17px;
+    padding: 0 28px 20px;
+    color: #656583;
+}
+.card .btn-primary {
+    background: #098dcf;
+    border-color: #098dcf;
+}
+.includes .card .title {
+    background: none;
+    color: #000;
+    padding: 45px 0 20px;
+}
+.briefs ul li {
+    font-size: 18px;
+    padding: 5px 170px 10px;
+    list-style-type: none;
+}
+.briefs ul li i {
+    padding: 11px;
+    color: #098dcf;
+    background: #f0f6fa;
+    border-radius: 50%;
+    height: 42px;
+    margin-right: 10px;
+    width: 42px;
+}
+.briefs ul li a {
+    text-decoration: none;
+}
+.briefs ul li a:hover {
+    text-decoration: underline;
+}
+/* Tickets Part End */
+
+/* Venue Part Start */
+.venue {
+    background: #098dcf;
+    padding-bottom: 70px;
+}
+.venue .title {
+    padding: 50px;
+}
+.venue .title h2 {
+    color: #fff;
+}
+/* Info Part Start */
+.info {
+    color: #fff;
+}
+.info .title {
+    padding: 0 !important;
+}
+.info .title h4 {
+    font-weight: 700;
+}
+.info .more {
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Info Part End */
+/* Gallary Part Start */
+.photoA, .photoB, .photoC, .photoD {
+    height: 225px;
+    width: 300px;
+}
+.photoA img, .photoB img, .photoC img, .photoD img {
+    width: 100%;
+    border: 10px solid #fff;
+}
+.gallary {
+    position: absolute;
+}
+.photoB {
+    position: relative;
+    bottom: 10px;
+    transform: rotate(3deg);
+}
+.photoC {
+    position: relative;
+    bottom: 60px;
+    transform: rotate(-2deg);
+}
+.photoD {
+    position: relative;
+    bottom: 100px;
+}
+/* Gallary Part End */
+/* Travel Part Start */
+.travel {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 25px;
+	margin: 15px 10px 15px 0;
+}
+.faclity {
+	color: #fff;
+	padding-top: 40px;
+}
+.travel .title {
+    padding: 0 !important;
+}
+.faclity .title {
+    padding: 30px 0 15px;
+}
+.travel .title h5 i {
+	padding-right: 10px;
+}
+.faclity .more {
+    font-weight: 500;
+}
+/* .travel .more, .faclity .more {
+    padding: 0 90px;
+} */
+/* .ticket {
+    padding: 0 90px 25px;
+} */
+.ticket a {
+    color: #fff;
+    text-decoration: none;
+}
+.ticket a:hover {
+    text-decoration: underline;
+}
+.ticket a i {
+    margin: 0 5px;
+}
+.faclity .btn-primary {
+    background: #098dcf;
+    border: 2px solid #fff;
+    margin-left: 0 !important;
+}
+.faclity .btn-primary:hover {
+    background: #fff;
+    color: #098dcf;
+    text-decoration: underline;
+}
+/* Travel Part End */
+/* Venue Part End */
+
+
+/* Partner Part Start */
+.partner {
+	padding: 50px;
+}
+.partner .title h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.partner .brief {
+    font-size: 19px;
+    color: #415B78;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.sponsor img {
+	width: 100%;
+    padding: 0 0 12px;
+}
+.Add {
+    padding: 50px;
+}
+.Add .btn-primary {
+	background: #098dcf;
+	border: #098dcf;
+	padding: 10px 40px;
+	font-size: 22px;
+}
+/* Partner Part End */
+
+/* Footer Part Start */
+.footer {
+    background: #098DCF;
+    padding: 45px;
+}
+.SocialLink a {
+	color: #fff;
+	padding: 0 10px;
+	font-size: 26px;
+}
+.footer .contact {
+    color: #fff;
+    padding: 15px;
+}
+.footer .contact a {
+	color: #fff;
+	padding: 0 12px;
+	font-size: 17px;
+	text-decoration: none;
+}
+.footer .contact a:hover {
+	text-decoration: underline;
+}
+.footer .text-center {
+	color: #fff;
+}
+/* Footer Part End */
